@@ -1,0 +1,13 @@
+button {
+    @include gradientbg(#35C66B,#237249);
+    color: $white;
+    padding: 20px 80px;
+    border-radius: 80px;
+    font-size: 24px;
+    border: none;
+    transition: 0.4s;
+
+    &:hover {
+        transform: translateY(-8%);
+    }
+}
